@@ -8,25 +8,26 @@ namespace Address_Book_System
         {
             Console.WriteLine(" ******Address Book****** ");
             AddressBook addressBook = new AddressBook();
+            addressBook.AddContactDetails("Hemant", "Sharma", "Shahdara", "Delhi", "Delhi", 110093, 7532026247, "hshemantsharma445@gmail.com");
 
-            
-            Console.WriteLine("\n1.Create Contact\n2.Add New Contact\n3.Edit Contact");
+            Console.WriteLine("\n1.Add New Contact\n2.Edit Contact\n3.Delete Contact");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
             {
                 case 1:
-                    addressBook.AddContactDetails("Hemant", "Sharma", "Shahdara", "Delhi", "Delhi", 110093, 7532026247, "hshemantsharma445@gmail.com");                   
-                    break;
-                case 2:
                     addressBook.AddNewContact();
                     break;
-                case 3:
-                    addressBook.AddContactDetails("Hemant", "Sharma", "Shahdara", "Delhi", "Delhi", 110093, 7532026247, "hshemantsharma445@gmail.com");
+                case 2:
                     Console.WriteLine("Enter name of the contact you wish to edit: ");
                     string name = Console.ReadLine();
                     addressBook.EditContact(name);
-                    break; 
+                    break;                    
+                case 3:                   
+                    Console.WriteLine("Enter name of the contact you wish to Delete: ");
+                    string contactname = Console.ReadLine();
+                    addressBook.DeleteContact(contactname);
+                    break;
             }
             addressBook.DisplayContacts();
         }

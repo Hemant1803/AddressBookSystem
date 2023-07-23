@@ -4,6 +4,7 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Address_Book_System
 {
@@ -63,11 +64,12 @@ namespace Address_Book_System
         {
            for (int i = 0; i < contactDetails.Count; i++) 
             {
+                
                 ContactDetails contact = contactDetails[i];
                 if (contact.firstname == name || contact.lastname == name)
                 {
                     Console.WriteLine("\n Choose What you want to edit " +
-                        "\n 1. First Name \n 2 Last Name \n 3. Address \n 4. City \n 5. State \n 6. ZipCode \n 7. Phone Number \n 8. Email ID");
+                        "\n 1. First Name \n 2.Last Name \n 3. Address \n 4. City \n 5. State \n 6. ZipCode \n 7. Phone Number \n 8. Email ID");
                     int edit = Convert.ToInt32(Console.ReadLine());
                     switch (edit)
                     {
@@ -107,6 +109,21 @@ namespace Address_Book_System
 
                 }
 
+            }
+        }
+
+        public void DeleteContact(string contactname)
+        {
+           for(int i = 0; i < contactDetails.Count; i++)
+            {
+                ContactDetails contact = contactDetails[i];
+                if (contact.firstname == contactname || contact.lastname == contactname)
+                {
+                    contactDetails.RemoveAt(i);
+
+                    Console.WriteLine("Your Contact Has Been Deleted");
+
+                }
             }
         }
     }
