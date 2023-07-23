@@ -10,7 +10,7 @@ namespace Address_Book_System
             AddressBook addressBook = new AddressBook();
             addressBook.AddContactDetails("Hemant", "Sharma", "Shahdara", "Delhi", "Delhi", 110093, 7532026247, "hshemantsharma445@gmail.com");
 
-            Console.WriteLine("\n1.Add New Contact\n2.Edit Contact\n3.Delete Contact");
+            Console.WriteLine("\n1.Add New Contact\n2.Edit Contact\n3.Delete Contact\n4.Add Multiple Contact");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -27,6 +27,9 @@ namespace Address_Book_System
                     Console.WriteLine("Enter name of the contact you wish to Delete: ");
                     string contactname = Console.ReadLine();
                     addressBook.DeleteContact(contactname);
+                    break;
+                case 4:                                      
+                    addressBook.MultipleContact();
                     break;
             }
             addressBook.DisplayContacts();

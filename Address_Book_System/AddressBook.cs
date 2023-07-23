@@ -40,6 +40,7 @@ namespace Address_Book_System
             string email = Console.ReadLine();
 
             AddContactDetails(firstname, lastname, address, city, state, zip, phone, email);
+            Console.WriteLine("**********************************************");
         }
         public void DisplayContacts()
         {
@@ -124,6 +125,16 @@ namespace Address_Book_System
                     Console.WriteLine("Your Contact Has Been Deleted");
 
                 }
+            }
+        }
+
+        public void MultipleContact()
+        {
+            Console.WriteLine("How Many Contact You Want to add");
+            int num = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < num; i++) {
+
+                AddNewContact();
             }
         }
     }
