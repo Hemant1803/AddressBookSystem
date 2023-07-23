@@ -1,0 +1,15 @@
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\bin\Debug\net6.0\Address_Book_System.exe
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\bin\Debug\net6.0\Address_Book_System.deps.json
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\bin\Debug\net6.0\Address_Book_System.runtimeconfig.json
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\bin\Debug\net6.0\Address_Book_System.dll
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\bin\Debug\net6.0\Address_Book_System.pdb
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\obj\Debug\net6.0\Address_Book_System.csproj.AssemblyReference.cache
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\obj\Debug\net6.0\Address_Book_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\obj\Debug\net6.0\Address_Book_System.AssemblyInfoInputs.cache
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\obj\Debug\net6.0\Address_Book_System.AssemblyInfo.cs
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\obj\Debug\net6.0\Address_Book_System.csproj.CoreCompileInputs.cache
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\obj\Debug\net6.0\Address_Book_System.dll
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\obj\Debug\net6.0\refint\Address_Book_System.dll
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\obj\Debug\net6.0\Address_Book_System.pdb
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\obj\Debug\net6.0\Address_Book_System.genruntimeconfig.cache
+C:\Users\hshem\source\repos\Address_Book_System\Address_Book_System\obj\Debug\net6.0\ref\Address_Book_System.dll
