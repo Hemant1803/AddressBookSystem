@@ -11,9 +11,11 @@ namespace Address_Book_System
     internal class AddressBook
     {
         List<ContactDetails> contactDetails;
+       
         public AddressBook()
         {
             contactDetails = new List<ContactDetails>();
+            
         }
         public void AddContactDetails(string firstname, string lastname, string address, string city, string state, int zip, long phone, string email)
         {
